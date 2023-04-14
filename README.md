@@ -4,10 +4,10 @@ Tericsoft react task 2
 
 ## Instructions
 
-Clone the project
+Clone the project (incase of github)
 
 ```bash
-  git clone https://github.com/usarthiharshini/tericsoft-assignment.git
+  git clone https://github.com/usarthiharshini/tericsoft-task2.git
 ```
 
 Install dependencies
