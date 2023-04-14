@@ -1,9 +1,77 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "featured_sports": [
+        {
+          "category": "Ball Sports",
+          "subcategories": ["Team", "Individual"],
+          "sports": [
+            {
+              "name": "Football",
+              "description": "Football is a team sport played with a spherical ball between two teams of eleven players.",
+              "image_url": "https://example.com/football.jpg",
+              "tags": ["football", "soccer", "team sport", "ball game"]
+            },
+            {
+              "name": "Basketball",
+              "description": "Basketball is a team sport played with a ball between two teams of five players.",
+              "image_url": "https://example.com/basketball.jpg",
+              "tags": ["basketball", "team sport", "ball game"]
+            },
+            {
+              "name": "Tennis",
+              "description": "Tennis is a racket sport played individually against a single opponent or between two teams of two players each.",
+              "image_url": "https://example.com/tennis.jpg",
+              "tags": ["tennis", "racket sport", "individual sport"]
+            }
+          ]
+        },
+        {
+          "category": "Water Sports",
+          "subcategories": ["Team", "Individual"],
+          "sports": [
+            {
+              "name": "Swimming",
+              "description": "Swimming is an individual or team sport that involves using arms and legs to move the body through water.",
+              "image_url": "https://example.com/swimming.jpg",
+              "tags": ["swimming", "individual sport", "team sport"]
+            },
+            {
+              "name": "Rowing",
+              "description": "Rowing is a sport in which boats are propelled through water by the motion of oars.",
+              "image_url": "https://example.com/rowing.jpg",
+              "tags": ["rowing", "team sport", "water sport"]
+            },
+            {
+              "name": "Sailing",
+              "description": "Sailing is the sport of using wind to power sails and propel boats through water.",
+              "image_url": "https://example.com/sailing.jpg",
+              "tags": ["sailing", "individual sport", "water sport"]
+            }
+          ]
+        },
+        {
+          "category": "Combat Sports",
+          "subcategories": ["Striking", "Grappling"],
+          "sports": [
+            {
+              "name": "Boxing",
+              "description": "Boxing is a combat sport in which two people wearing protective gloves throw punches at each other for a predetermined set of time in a boxing ring.",
+              "image_url": "https://example.com/boxing.jpg",
+              "tags": ["boxing", "combat sport", "individual sport"]
+            },
+            {
+              "name": "Wrestling",
+              "description": "Wrestling is a combat sport that involves grappling techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.",
+              "image_url": "https://example.com/wrestling.jpg",
+              "tags": ["wrestling", "combat sport", "grappling"]
+            },
+            {
+              "name": "Muay Thai",
+              "description": "Muay Thai is a combat sport that originated in Thailand and involves striking techniques such as punches, kicks, knee strikes, and elbow strikes.",
+              "image_url": "https://example.com/muay-thai.jpg",
+              "tags": ["muay thai", "combat sport", "striking"]
+            }
+          ]
+        }
+    ]
+
 }
