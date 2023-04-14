@@ -1,77 +1,503 @@
 {
-    "featured_sports": [
-        {
-          "category": "Ball Sports",
-          "subcategories": ["Team", "Individual"],
-          "sports": [
-            {
-              "name": "Football",
-              "description": "Football is a team sport played with a spherical ball between two teams of eleven players.",
-              "image_url": "https://example.com/football.jpg",
-              "tags": ["football", "soccer", "team sport", "ball game"]
-            },
-            {
-              "name": "Basketball",
-              "description": "Basketball is a team sport played with a ball between two teams of five players.",
-              "image_url": "https://example.com/basketball.jpg",
-              "tags": ["basketball", "team sport", "ball game"]
-            },
-            {
-              "name": "Tennis",
-              "description": "Tennis is a racket sport played individually against a single opponent or between two teams of two players each.",
-              "image_url": "https://example.com/tennis.jpg",
-              "tags": ["tennis", "racket sport", "individual sport"]
-            }
-          ]
-        },
-        {
-          "category": "Water Sports",
-          "subcategories": ["Team", "Individual"],
-          "sports": [
-            {
-              "name": "Swimming",
-              "description": "Swimming is an individual or team sport that involves using arms and legs to move the body through water.",
-              "image_url": "https://example.com/swimming.jpg",
-              "tags": ["swimming", "individual sport", "team sport"]
-            },
-            {
-              "name": "Rowing",
-              "description": "Rowing is a sport in which boats are propelled through water by the motion of oars.",
-              "image_url": "https://example.com/rowing.jpg",
-              "tags": ["rowing", "team sport", "water sport"]
-            },
-            {
-              "name": "Sailing",
-              "description": "Sailing is the sport of using wind to power sails and propel boats through water.",
-              "image_url": "https://example.com/sailing.jpg",
-              "tags": ["sailing", "individual sport", "water sport"]
-            }
-          ]
-        },
-        {
-          "category": "Combat Sports",
-          "subcategories": ["Striking", "Grappling"],
-          "sports": [
-            {
-              "name": "Boxing",
-              "description": "Boxing is a combat sport in which two people wearing protective gloves throw punches at each other for a predetermined set of time in a boxing ring.",
-              "image_url": "https://example.com/boxing.jpg",
-              "tags": ["boxing", "combat sport", "individual sport"]
-            },
-            {
-              "name": "Wrestling",
-              "description": "Wrestling is a combat sport that involves grappling techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.",
-              "image_url": "https://example.com/wrestling.jpg",
-              "tags": ["wrestling", "combat sport", "grappling"]
-            },
-            {
-              "name": "Muay Thai",
-              "description": "Muay Thai is a combat sport that originated in Thailand and involves striking techniques such as punches, kicks, knee strikes, and elbow strikes.",
-              "image_url": "https://example.com/muay-thai.jpg",
-              "tags": ["muay thai", "combat sport", "striking"]
-            }
-          ]
-        }
+  "featured_sports": {
+    "data": [
+      {
+        "category": "Ball Sports",
+        "subcategories": ["Team", "Individual"],
+        "sports": [
+          {
+            "name": "Football",
+            "description": "Football is a team sport played with a spherical ball between two teams of eleven players.",
+            "image_url": "https://example.com/football.jpg",
+            "tags": ["football", "soccer", "team sport", "ball game"]
+          },
+          {
+            "name": "Basketball",
+            "description": "Basketball is a team sport played with a ball between two teams of five players.",
+            "image_url": "https://example.com/basketball.jpg",
+            "tags": ["basketball", "team sport", "ball game"]
+          },
+          {
+            "name": "Tennis",
+            "description": "Tennis is a racket sport played individually against a single opponent or between two teams of two players each.",
+            "image_url": "https://example.com/tennis.jpg",
+            "tags": ["tennis", "racket sport", "individual sport"]
+          }
+        ]
+      },
+      {
+        "category": "Water Sports",
+        "subcategories": ["Team", "Individual"],
+        "sports": [
+          {
+            "name": "Swimming",
+            "description": "Swimming is an individual or team sport that involves using arms and legs to move the body through water.",
+            "image_url": "https://example.com/swimming.jpg",
+            "tags": ["swimming", "individual sport", "team sport"]
+          },
+          {
+            "name": "Rowing",
+            "description": "Rowing is a sport in which boats are propelled through water by the motion of oars.",
+            "image_url": "https://example.com/rowing.jpg",
+            "tags": ["rowing", "team sport", "water sport"]
+          },
+          {
+            "name": "Sailing",
+            "description": "Sailing is the sport of using wind to power sails and propel boats through water.",
+            "image_url": "https://example.com/sailing.jpg",
+            "tags": ["sailing", "individual sport", "water sport"]
+          }
+        ]
+      },
+      {
+        "category": "Combat Sports",
+        "subcategories": ["Striking", "Grappling"],
+        "sports": [
+          {
+            "name": "Boxing",
+            "description": "Boxing is a combat sport in which two people wearing protective gloves throw punches at each other for a predetermined set of time in a boxing ring.",
+            "image_url": "https://example.com/boxing.jpg",
+            "tags": ["boxing", "combat sport", "individual sport"]
+          },
+          {
+            "name": "Wrestling",
+            "description": "Wrestling is a combat sport that involves grappling techniques such as clinch fighting, throws and takedowns, joint locks, pins and other grappling holds.",
+            "image_url": "https://example.com/wrestling.jpg",
+            "tags": ["wrestling", "combat sport", "grappling"]
+          },
+          {
+            "name": "Muay Thai",
+            "description": "Muay Thai is a combat sport that originated in Thailand and involves striking techniques such as punches, kicks, knee strikes, and elbow strikes.",
+            "image_url": "https://example.com/muay-thai.jpg",
+            "tags": ["muay thai", "combat sport", "striking"]
+          }
+        ]
+      }
     ]
+  },
 
+  "aquatics": {
+    "swimming": [
+      {
+        "image_url": "https://example.com/swimming1.jpg",
+        "title": "Freestyle",
+        "tags": ["swimming", "freestyle", "stroke", "competition"]
+      },
+      {
+        "image_url": "https://example.com/swimming2.jpg",
+        "title": "Breaststroke",
+        "tags": ["swimming", "breaststroke", "stroke", "technique"]
+      },
+      {
+        "image_url": "https://example.com/swimming3.jpg",
+        "title": "Backstroke",
+        "tags": ["swimming", "backstroke", "stroke", "technique"]
+      },
+      {
+        "image_url": "https://example.com/swimming4.jpg",
+        "title": "Butterfly",
+        "tags": ["swimming", "butterfly", "stroke", "technique"]
+      }
+    ],
+    "diving": [
+      {
+        "image_url": "https://example.com/diving1.jpg",
+        "title": "Springboard Diving",
+        "tags": ["diving", "springboard", "technique", "competition"]
+      },
+      {
+        "image_url": "https://example.com/diving2.jpg",
+        "title": "Platform Diving",
+        "tags": ["diving", "platform", "technique", "competition"]
+      },
+      {
+        "image_url": "https://example.com/diving3.jpg",
+        "title": "Synchronized Diving",
+        "tags": ["diving", "synchronized", "team", "competition"]
+      },
+      {
+        "image_url": "https://example.com/diving4.jpg",
+        "title": "High Diving",
+        "tags": ["diving", "high diving", "technique", "competition"]
+      }
+    ],
+    "water_polo": [
+      {
+        "image_url": "https://example.com/water_polo1.jpg",
+        "title": "Goalkeeper",
+        "tags": ["water polo", "goalkeeper", "position", "team"]
+      },
+      {
+        "image_url": "https://example.com/water_polo2.jpg",
+        "title": "Centre Forward",
+        "tags": ["water polo", "centre forward", "position", "team"]
+      },
+      {
+        "image_url": "https://example.com/water_polo3.jpg",
+        "title": "Defender",
+        "tags": ["water polo", "defender", "position", "team"]
+      },
+      {
+        "image_url": "https://example.com/water_polo4.jpg",
+        "title": "Utility Player",
+        "tags": ["water polo", "utility player", "position", "team"]
+      }
+    ]
+  },
+
+  "equestrian": {
+    "dressage": [
+      {
+        "image_url": "https://example.com/dressage1.jpg",
+        "title": "Piaffe",
+        "tags": ["dressage", "piaffe", "movement", "competition"]
+      },
+      {
+        "image_url": "https://example.com/dressage2.jpg",
+        "title": "Passage",
+        "tags": ["dressage", "passage", "movement", "competition"]
+      },
+      {
+        "image_url": "https://example.com/dressage3.jpg",
+        "title": "Extended Trot",
+        "tags": ["dressage", "extended trot", "movement", "competition"]
+      },
+      {
+        "image_url": "https://example.com/dressage4.jpg",
+        "title": "Half Pass",
+        "tags": ["dressage", "half pass", "movement", "competition"]
+      }
+    ],
+    "show_jumping": [
+      {
+        "image_url": "https://example.com/show_jumping1.jpg",
+        "title": "Vertical Jump",
+        "tags": ["show jumping", "vertical jump", "obstacle", "competition"]
+      },
+      {
+        "image_url": "https://example.com/show_jumping2.jpg",
+        "title": "Oxer Jump",
+        "tags": ["show jumping", "oxer jump", "obstacle", "competition"]
+      },
+      {
+        "image_url": "https://example.com/show_jumping3.jpg",
+        "title": "Water Jump",
+        "tags": ["show jumping", "water jump", "obstacle", "competition"]
+      },
+      {
+        "image_url": "https://example.com/show_jumping4.jpg",
+        "title": "Combination Jump",
+        "tags": ["show jumping", "combination jump", "obstacle", "competition"]
+      }
+    ],
+    "eventing": [
+      {
+        "image_url": "https://example.com/eventing1.jpg",
+        "title": "Cross Country Jump",
+        "tags": ["eventing", "cross country jump", "obstacle", "competition"]
+      },
+      {
+        "image_url": "https://example.com/eventing2.jpg",
+        "title": "Dressage Test",
+        "tags": ["eventing", "dressage test", "movement", "competition"]
+      },
+      {
+        "image_url": "https://example.com/eventing3.jpg",
+        "title": "Show Jumping Round",
+        "tags": ["eventing", "show jumping round", "obstacle", "competition"]
+      },
+      {
+        "image_url": "https://example.com/eventing4.jpg",
+        "title": "Steeplechase",
+        "tags": ["eventing", "steeplechase", "obstacle", "competition"]
+      }
+    ]
+  },
+  "extreme_sports": {
+    "skydiving": [
+      {
+        "image_url": "https://example.com/skydiving1.jpg",
+        "title": "Tandem Skydiving",
+        "tags": ["skydiving", "tandem", "adrenaline", "thrill"]
+      },
+      {
+        "image_url": "https://example.com/skydiving2.jpg",
+        "title": "Wingsuit Flying",
+        "tags": ["skydiving", "wingsuit flying", "base jumping", "flying"]
+      },
+      {
+        "image_url": "https://example.com/skydiving3.jpg",
+        "title": "Formation Skydiving",
+        "tags": ["skydiving", "formation skydiving", "teamwork", "precision"]
+      },
+      {
+        "image_url": "https://example.com/skydiving4.jpg",
+        "title": "Freeflying",
+        "tags": ["skydiving", "freeflying", "acrobatics", "style"]
+      }
+    ],
+    "snowboarding": [
+      {
+        "image_url": "https://example.com/snowboarding1.jpg",
+        "title": "Freestyle Snowboarding",
+        "tags": ["snowboarding", "freestyle snowboarding", "tricks", "style"]
+      },
+      {
+        "image_url": "https://example.com/snowboarding2.jpg",
+        "title": "Alpine Snowboarding",
+        "tags": ["snowboarding", "alpine snowboarding", "speed", "precision"]
+      },
+      {
+        "image_url": "https://example.com/snowboarding3.jpg",
+        "title": "Backcountry Snowboarding",
+        "tags": [
+          "snowboarding",
+          "backcountry snowboarding",
+          "off-piste",
+          "adventure"
+        ]
+      },
+      {
+        "image_url": "https://example.com/snowboarding4.jpg",
+        "title": "Splitboarding",
+        "tags": ["snowboarding", "splitboarding", "backcountry", "climbing"]
+      }
+    ],
+    "rock_climbing": [
+      {
+        "image_url": "https://example.com/rockclimbing1.jpg",
+        "title": "Sport Climbing",
+        "tags": ["rock climbing", "sport climbing", "ropes", "competition"]
+      },
+      {
+        "image_url": "https://example.com/rockclimbing2.jpg",
+        "title": "Bouldering",
+        "tags": ["rock climbing", "bouldering", "no ropes", "power"]
+      },
+      {
+        "image_url": "https://example.com/rockclimbing3.jpg",
+        "title": "Trad Climbing",
+        "tags": ["rock climbing", "trad climbing", "gear", "adventure"]
+      },
+      {
+        "image_url": "https://example.com/rockclimbing4.jpg",
+        "title": "Free Solo Climbing",
+        "tags": [
+          "rock climbing",
+          "free solo climbing",
+          "no ropes",
+          "risk-taking"
+        ]
+      }
+    ]
+  },
+  "golf": {
+    "driving": [
+      {
+        "image_url": "https://example.com/driving1.jpg",
+        "title": "Tee Shot",
+        "tags": ["driving", "tee shot", "swing", "driver"]
+      },
+      {
+        "image_url": "https://example.com/driving2.jpg",
+        "title": "Fairway Wood Shot",
+        "tags": ["driving", "fairway wood shot", "swing", "fairway wood"]
+      },
+      {
+        "image_url": "https://example.com/driving3.jpg",
+        "title": "Hybrid Shot",
+        "tags": ["driving", "hybrid shot", "swing", "hybrid"]
+      },
+      {
+        "image_url": "https://example.com/driving4.jpg",
+        "title": "Bunker Shot",
+        "tags": ["driving", "bunker shot", "swing", "sand wedge"]
+      }
+    ],
+    "approach": [
+      {
+        "image_url": "https://example.com/approach1.jpg",
+        "title": "Pitch Shot",
+        "tags": ["approach", "pitch shot", "swing", "wedge"]
+      },
+      {
+        "image_url": "https://example.com/approach2.jpg",
+        "title": "Chip Shot",
+        "tags": ["approach", "chip shot", "swing", "putter"]
+      },
+      {
+        "image_url": "https://example.com/approach3.jpg",
+        "title": "Bump and Run",
+        "tags": ["approach", "bump and run", "swing", "wedge"]
+      },
+      {
+        "image_url": "https://example.com/approach4.jpg",
+        "title": "Flop Shot",
+        "tags": ["approach", "flop shot", "swing", "lob wedge"]
+      }
+    ],
+    "putting": [
+      {
+        "image_url": "https://example.com/putting1.jpg",
+        "title": "Short Putt",
+        "tags": ["putting", "short putt", "stroke", "putter"]
+      },
+      {
+        "image_url": "https://example.com/putting2.jpg",
+        "title": "Medium Putt",
+        "tags": ["putting", "medium putt", "stroke", "putter"]
+      },
+      {
+        "image_url": "https://example.com/putting3.jpg",
+        "title": "Long Putt",
+        "tags": ["putting", "long putt", "stroke", "putter"]
+      },
+      {
+        "image_url": "https://example.com/putting4.jpg",
+        "title": "Breaking Putt",
+        "tags": ["putting", "breaking putt", "stroke", "putter"]
+      }
+    ]
+  },
+  "gymnastics": {
+    "artistic": [
+      {
+        "image_url": "https://example.com/artistic1.jpg",
+        "title": "Vault",
+        "tags": ["artistic", "vault", "apparatus", "power"]
+      },
+      {
+        "image_url": "https://example.com/artistic2.jpg",
+        "title": "Uneven Bars",
+        "tags": ["artistic", "uneven bars", "apparatus", "rhythm"]
+      },
+      {
+        "image_url": "https://example.com/artistic3.jpg",
+        "title": "Balance Beam",
+        "tags": ["artistic", "balance beam", "apparatus", "precision"]
+      },
+      {
+        "image_url": "https://example.com/artistic4.jpg",
+        "title": "Floor Exercise",
+        "tags": ["artistic", "floor exercise", "apparatus", "acrobatics"]
+      }
+    ],
+    "rhythmic": [
+      {
+        "image_url": "https://example.com/rhythmic1.jpg",
+        "title": "Hoop",
+        "tags": ["rhythmic", "hoop", "apparatus", "flexibility"]
+      },
+      {
+        "image_url": "https://example.com/rhythmic2.jpg",
+        "title": "Ball",
+        "tags": ["rhythmic", "ball", "apparatus", "coordination"]
+      },
+      {
+        "image_url": "https://example.com/rhythmic3.jpg",
+        "title": "Clubs",
+        "tags": ["rhythmic", "clubs", "apparatus", "manipulation"]
+      },
+      {
+        "image_url": "https://example.com/rhythmic4.jpg",
+        "title": "Ribbon",
+        "tags": ["rhythmic", "ribbon", "apparatus", "grace"]
+      }
+    ],
+    "trampoline": [
+      {
+        "image_url": "https://example.com/trampoline1.jpg",
+        "title": "Individual Trampoline",
+        "tags": ["trampoline", "individual trampoline", "apparatus", "height"]
+      },
+      {
+        "image_url": "https://example.com/trampoline2.jpg",
+        "title": "Synchronized Trampoline",
+        "tags": [
+          "trampoline",
+          "synchronized trampoline",
+          "apparatus",
+          "coordination"
+        ]
+      },
+      {
+        "image_url": "https://example.com/trampoline3.jpg",
+        "title": "Double Mini Trampoline",
+        "tags": ["trampoline", "double mini trampoline", "apparatus", "power"]
+      },
+      {
+        "image_url": "https://example.com/trampoline4.jpg",
+        "title": "Tumbling",
+        "tags": ["trampoline", "tumbling", "apparatus", "acrobatics"]
+      }
+    ]
+  },
+  "lake_and_sea_sports": {
+    "surfing": [
+      {
+        "image_url": "https://example.com/surfing1.jpg",
+        "title": "Longboard",
+        "tags": ["surfing", "longboard", "waves", "style"]
+      },
+      {
+        "image_url": "https://example.com/surfing2.jpg",
+        "title": "Shortboard",
+        "tags": ["surfing", "shortboard", "waves", "agility"]
+      },
+      {
+        "image_url": "https://example.com/surfing3.jpg",
+        "title": "Bodyboarding",
+        "tags": ["surfing", "bodyboarding", "waves", "speed"]
+      },
+      {
+        "image_url": "https://example.com/surfing4.jpg",
+        "title": "Tow-in Surfing",
+        "tags": ["surfing", "tow-in surfing", "big waves", "risk-taking"]
+      }
+    ],
+    "kayaking": [
+      {
+        "image_url": "https://example.com/kayaking1.jpg",
+        "title": "Sea Kayaking",
+        "tags": ["kayaking", "sea kayaking", "ocean", "exploration"]
+      },
+      {
+        "image_url": "https://example.com/kayaking2.jpg",
+        "title": "Whitewater Kayaking",
+        "tags": ["kayaking", "whitewater kayaking", "river", "adventure"]
+      },
+      {
+        "image_url": "https://example.com/kayaking3.jpg",
+        "title": "Recreational Kayaking",
+        "tags": ["kayaking", "recreational kayaking", "lake", "relaxation"]
+      },
+      {
+        "image_url": "https://example.com/kayaking4.jpg",
+        "title": "Surf Kayaking",
+        "tags": ["kayaking", "surf kayaking", "waves", "agility"]
+      }
+    ],
+    "diving": [
+      {
+        "image_url": "https://example.com/diving1.jpg",
+        "title": "Scuba Diving",
+        "tags": ["diving", "scuba diving", "underwater", "exploration"]
+      },
+      {
+        "image_url": "https://example.com/diving2.jpg",
+        "title": "Free Diving",
+        "tags": ["diving", "free diving", "underwater", "breath-holding"]
+      },
+      {
+        "image_url": "https://example.com/diving3.jpg",
+        "title": "Spearfishing",
+        "tags": ["diving", "spearfishing", "underwater", "hunting"]
+      },
+      {
+        "image_url": "https://example.com/diving4.jpg",
+        "title": "Cave Diving",
+        "tags": ["diving", "cave diving", "underwater", "exploration"]
+      }
+    ]
+  }
 }
